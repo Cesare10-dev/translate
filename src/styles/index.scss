@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+  > .form {
+    background-color: #ffffff;
+    max-width: 900px;
+    height: 200px;
+    width: 680px;
+    border: 2px solid #edf0f2;
+    border-radius: 4px;
+
+    > .inputs {
+      width: 248px;
+      outline: none;
+      border: none;
+      border-bottom: 1px solid #f7f4f4;
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 14px;
+      color: grey;
+    }
+
+    > .flag {
+      display: flex;
+      align-items: center;
+
+      > h2 {
+        font-size: 20px;
+        color: #dae0e6;
+        font-weight: 400;
+        margin-left: 14px;
+      }
+    }
+  }
+}
